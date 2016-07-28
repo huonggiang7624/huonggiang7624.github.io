@@ -16,15 +16,129 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <style>
+    body {
+        position: relative;
+    }
+    #section1 {padding-top:50px;height:700px;color: #fff; background-color: #1E88E5;}
+    #section2 {padding-top:50px;height:700px;color: #fff; background-color: #673ab7;}
+    #section3 {padding-top:50px;height:700px;color: #fff; background-color: #ff9800;}
+    #section4 {padding-top:50px;height:700px;color: #fff; background-color: #00bcd4;}
+    #section5 {padding-top:50px;height:700px;color: #fff; background-color: #009688;}
+    #section6 {padding-top:50px;height:700px;color: #fff; background-color: red;}
+    #section7 {padding-top:50px;height:700px;color: #fff; background-color: pink;}
+    #section8 {padding-top:50px;height:700px;color: #fff; background-color: white;}
+    </style>
     <![endif]-->
 </head>
-<body>
-<h1>Hello, world!</h1>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Hương Giang</a>
+        </div>
+        <div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#section1">VÀNG BẠC</a></li>
+                    <li><a href="#section2">ĐÁ QUÝ</a></li>
+                    <li><a href="#section3">SẢN PHẨM</a></li>
+                    <li><a href="#section4">THỊ TRƯỜNG VÀNG</a></li>
+                    <li><a href="#section5">CHUYÊN GIA TƯ VẤN</a></li>
+                    <li><a href="#section6">CHỨNG KHOÁN</a></li>
+                    <li><a href="#section7">THỊ TRƯỜNG NGOẠI TỆ</a></li>
+                    <li><a href="#section8">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div id="section1" class="container-fluid">
+    <form role="form">
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+    <h1>Section 1</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section2" class="container-fluid">
+    <h2 class="text-center">KIM CƯƠNG</h2>
+
+    <div class="row">
+        <div class="col-md-4">
+            <a href="http://cms.kienthuc.net.vn/zoom/1000/uploaded/ctvkhoahoc/2016_01_25/three/ba-vien-kim-cuong-o-nam-phi-tiet-lo-bi-mat-trai-dat.jpg" class="thumbnail">
+                <p class="text-center">50.000.000đ</p>
+                <img src="http://cms.kienthuc.net.vn/zoom/1000/uploaded/ctvkhoahoc/2016_01_25/three/ba-vien-kim-cuong-o-nam-phi-tiet-lo-bi-mat-trai-dat.jpg" alt="Pulpit Rock" style="width:150px;height:150px">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="http://img.v3.news.zdn.vn/w660/Uploaded/aolnpvp/2013_09_01/kim%20cuong%201.jpg" class="thumbnail">
+                <p class="text-center">70.000.000đ</p>
+                <img src="http://img.v3.news.zdn.vn/w660/Uploaded/aolnpvp/2013_09_01/kim%20cuong%201.jpg" alt="Moustiers Sainte Marie" style="width:150px;height:150px">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="cinqueterre.jpg" class="thumbnail">
+                <p class="text-center">60.000.000đ</p>
+                <img src="http://media.tinchieu.com/images/upload/10-loai-da-quy-dep-va-dat-hon-ca-kim-cuong8_2246150746.jpg" alt="Cinque Terre" style="width:150px;height:150px">
+            </a>
+        </div>
+    </div>
+</div>
+<div id="section3" class="container-fluid">
+    <h1>Section 3</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section4" class="container-fluid">
+    <h1>Section 4 Submenu 1</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section5" class="container-fluid">
+    <h1>Section 4 Submenu 2</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section6" class="container-fluid">
+    <h1>Section 4 Submenu 2</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section7" class="container-fluid">
+    <h1>Section 4 Submenu 2</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section8" class="container-fluid">
+    <h1>Section 4 Submenu 2</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
 </body>
 </html>
 
